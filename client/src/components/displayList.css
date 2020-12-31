@@ -1,0 +1,73 @@
+.job_card{
+    border: 1px solid rgb(223, 219, 219);
+    padding: 10px;
+    width: 450px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.job_active{
+    border: 1px solid blue;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    padding: 10px;
+    width: 450px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.main_job{
+    display: flex;
+}
+.job_show{
+    margin:20px 20px;
+    top: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    border: 1px solid rgb(223, 219, 219);
+    width: 600px;
+    border-radius: 5px;
+}
+.job_showCard{
+    padding: 20px;
+    border-bottom: 1px solid rgb(223, 219, 219);
+}
+.job_content{
+    padding: 20px;
+    height: 450px;
+    overflow: auto;
+}
+.job_search input[type="text"]{
+    margin-top: 20px;
+    width: 450px;
+    border: 1px solid  rgb(223, 219, 219);
+    outline: none;
+    padding: 10px;
+}
+.job_read span{
+    color: blue;
+}
+.job_showCard .job_email{
+    text-align: center;
+}
+.job_input label{
+    display: block;
+}
+.job_input{
+    padding: 20px;
+    color: rgb(150, 150, 150);
+}
+.job_input p{
+    margin-top: 20px;
+}
+.job_input input[type="text"]{
+    outline: none;
+    margin-top: 10px;
+    border: 1px solid rgb(230, 229, 229);
+}
+.job_input button{
+    border: none;
+    outline: none;
+    border: 1px solid  rgb(230, 229, 229);
+    padding: 1px 10px;
+    background-color: rgb(29, 245, 234);
+}
